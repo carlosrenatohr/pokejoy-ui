@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/carlosrenatohr/pokejoy-ui/static/css/main.463db42f.css",
+    "main.js": "/carlosrenatohr/pokejoy-ui/static/js/main.004b3f4f.js",
+    "static/js/787.b72e25cb.chunk.js": "/carlosrenatohr/pokejoy-ui/static/js/787.b72e25cb.chunk.js",
+    "index.html": "/carlosrenatohr/pokejoy-ui/index.html",
+    "main.463db42f.css.map": "/carlosrenatohr/pokejoy-ui/static/css/main.463db42f.css.map",
+    "main.004b3f4f.js.map": "/carlosrenatohr/pokejoy-ui/static/js/main.004b3f4f.js.map",
+    "787.b72e25cb.chunk.js.map": "/carlosrenatohr/pokejoy-ui/static/js/787.b72e25cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.463db42f.css",
+    "static/js/main.004b3f4f.js"
+  ]
+}
