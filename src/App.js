@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
 
+import Menu from './components/menu/menu';
+import {
+   BrowserRouter,
+} from "react-router-dom";
+import RoutingTree from './components/routing';
+
 function App() {
-  const title = "Heyo"
+  const title = "Hey"
   return (
     <div className="App">
-      <header className="App-header">
-        <nav>
-          <ul>
-            <li>
-              <a href='#'>Home</a>
-            </li>
-            <li><a href='#'>Pokemon</a></li>
-            <li><a href='#'>Moves</a></li>
-          </ul>
-        </nav>
-      </header>
+      <div>
+        <BrowserRouter>
+          <nav>
+            <Menu />
+          </nav>
+          {/* -- Routing Tree -- */}
+          <RoutingTree />
+        </BrowserRouter>
+       <main>
+          Hey {title}!!
+        </main>
+      </div>
     </div>
   );
 }
 
 export default App;
+git commit
